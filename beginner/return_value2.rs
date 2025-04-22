@@ -1,11 +1,10 @@
-fn swap(x: i64, y: i64) -> (i64, i64) {
-    return (x, y);
+fn make_nothing() -> (){
+    return ();
+}
+fn make_nothing2() {
 }
 
-fn main() {
-    let result = swap(43, 37);
-    println!("{}", "{}", result.1, result.0);
-
-    let(a, k) = swap(result.1, result.0);
-    println!("{}", "{}", a, k);
+fn main(){
+    let a = make_nothing;
+    let b = make_nothing2;
 }
